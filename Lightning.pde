@@ -56,6 +56,7 @@ void draw() {
 
 void cloud(float xc,float yc,float sf){
   stroke(250,250,250);
+  fill(250,250,250);
   ellipse(xc,yc,30*sf,30*sf);
   ellipse(xc+12*sf,yc,20*sf,20*sf);
   ellipse(xc-12*sf,yc,30*sf,30*sf);

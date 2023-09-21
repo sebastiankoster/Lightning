@@ -56,10 +56,10 @@ void draw() {
 
 void cloud(float xc,float yc,float sf){
   stroke(250,250,250);
-  circle(xc,yc,30*sf);
-  circle(xc+12*sf,yc,20*sf);
-  circle(xc-12*sf,yc,20*sf);
-  circle(xc+10*sf,yc+20,20*sf);
+  ellipse(xc,yc,30*sf,30*sf);
+  ellipse(xc+12*sf,yc,20*sf,20*sf);
+  ellipse(xc-12*sf,yc,30*sf,30*sf);
+  ellipse(xc+10*sf,yc+20,20*sf,30*sf);
 }
 
 void mousePressed(){

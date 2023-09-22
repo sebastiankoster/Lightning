@@ -45,7 +45,7 @@ void draw() {
   }
 
   count++;
-  strokeWeight(10);
+  strokeWeight(40);
   stroke(256,256,0);
   line(xlp,ylp,xl,yl);
   strokeWeight(0.5);

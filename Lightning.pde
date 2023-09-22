@@ -41,6 +41,7 @@ void draw() {
      yl=0;
      ylp = 0;
      xlp = ligtningX0;
+    strikeNumber++;
   }
 
   count++;
